@@ -1,0 +1,82 @@
+<domain>1</domain>
+<receive_time>2020/01/04 12:55:03</receive_time>
+<serial>001701013507</serial>
+<seqno>4021954359</seqno>
+<actionflags>0x0</actionflags>
+<is-logging-service>no</is-logging-service>
+<type>TRAFFIC</type>
+<subtype>deny</subtype>
+<config_ver>2049</config_ver>
+<time_generated>2020/01/04 12:55:03</time_generated>
+<src>4.16.18.82</src>
+<dst>208.84.176.5</dst>
+<rule>Outside - In Catch All</rule>
+<srcloc code="United States" cc="US">United States</srcloc>
+<dstloc code="United States" cc="US">United States</dstloc>
+<app>meraki-cloud-controller</app>
+<vsys>vsys1</vsys>
+<from>outside</from>
+<to>outside</to>
+<inbound_if>ethernet1/1</inbound_if>
+<outbound_if>ethernet1/1</outbound_if>
+<logset>Syslog Test</logset>
+<time_received>2020/01/04 12:55:03</time_received>
+<sessionid>62018</sessionid>
+<repeatcnt>1</repeatcnt>
+<sport>36933</sport>
+<dport>58126</dport>
+<natsport>0</natsport>
+<natdport>0</natdport
+flags>0x4000</flags>
+<flag-pcap>no</flag-pcap>
+<flag-flagged>no</flag-flagged>
+<flag-proxy>no</flag-proxy>
+<flag-url-denied>no</flag-url-denied>
+<flag-nat>no</flag-nat>
+<captive-portal>no</captive-portal>
+<non-std-dport>no</non-std-dport>
+<transaction>no</transaction>
+<pbf-c2s>no</pbf-c2s>
+<pbf-s2c>no</pbf-s2c>
+<temporary-match>no</temporary-match>
+<sym-return>no</sym-return>
+<decrypt-mirror>no</decrypt-mirror>
+<credential-detected>no</credential-detected>
+<flag-mptcp-set>no</flag-mptcp-set>
+<flag-tunnel-inspected>no</flag-tunnel-inspected>
+<flag-recon-excluded>no</flag-recon-excluded>
+<flag-wf-channel>no</flag-wf-channel>
+<proto>udp</proto>
+<action>reset-both</action>
+<tunnel>N/A</tunnel>
+<tpadding>0</tpadding>
+<cpadding>0</cpadding>
+<dg_hier_level_1>0</dg_hier_level_1>
+<dg_hier_level_2>0</dg_hier_level_2>
+<dg_hier_level_3>0</dg_hier_level_3>
+<dg_hier_level_4>0</dg_hier_level_4>
+<device_name>PA-3050</device_name>
+<vsys_id>1</vsys_id>
+<tunnelid_imsi>0</tunnelid_imsi>
+<parent_session_id>0</parent_session_id>
+<bytes>420</bytes>
+<bytes_sent>420</bytes_sent>
+<bytes_received>0</bytes_received>
+<packets>2</packets>
+<start>2020/01/04 12:54:55</start>
+<elapsed>8</elapsed>
+<category>any</category>
+<traffic_flags>0x0</traffic_flags>
+<flag-decrypt-forwarded>no</flag-decrypt-forwarded>
+<pkts_sent>2</pkts_sent>
+<pkts_received>0</pkts_received>
+<session_end_reason>policy-deny</session_end_reason>
+<action_source>from-application</action_source>
+<assoc_id>0</assoc_id>
+<chunks>0</chunks>
+<chunks_sent>0</chunks_sent>
+<chunks_received>0</chunks_received>
+<tunnelid>0</tunnelid>
+<imsi/>
+<monitortag/>
+<imei/>
